@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: consumer-service
+
+server:
+  context-path: /consumer
+  port: 7002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8001/eureka/

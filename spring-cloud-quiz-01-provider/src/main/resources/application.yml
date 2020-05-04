@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: provider-service
+
+server:
+  context-path: /provider
+  port: 7001
+
+eureka:
+  client:
+    service-url:
+      # 高可用(High Available)
+      defaultZone: http://127.0.0.1:8001/eureka/,http://127.0.0.1:8002/eureka/
