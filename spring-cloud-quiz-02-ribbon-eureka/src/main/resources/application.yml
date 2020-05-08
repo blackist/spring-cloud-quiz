@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-service
+
+server:
+  port: 8002
+
+eureka:
+  instance:
+    # 注册中心心跳时间
+    lease-renewal-interval-in-seconds: 10
+    # 注册中心租期到期时间(收到最后一次心跳的时间上限)
+    lease-expiration-duration-in-seconds: 120
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8002/eureka/

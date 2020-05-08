@@ -21,6 +21,11 @@
         <module>spring-cloud-quiz-01-eureka-server-b</module>
         <module>spring-cloud-quiz-01-provider</module>
         <module>spring-cloud-quiz-01-consumer</module>
+        <module>spring-cloud-quiz-02-ribbon-eureka</module>
+        <module>spring-cloud-quiz-02-ribbon-client-1</module>
+        <module>spring-cloud-quiz-02-ribbon-client-2</module>
+        <module>spring-cloud-quiz-02-ribbon-request</module>
+        <module>spring-cloud-quiz-02-ribbon-retry</module>
     </modules>
 
     <properties>

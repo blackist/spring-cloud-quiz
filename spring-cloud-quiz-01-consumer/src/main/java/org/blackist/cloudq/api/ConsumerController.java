@@ -1,4 +1,4 @@
-package org.blackist.cloudq.service;
+package org.blackist.cloudq.api;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

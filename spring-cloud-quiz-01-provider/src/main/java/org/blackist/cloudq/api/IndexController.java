@@ -1,4 +1,4 @@
-package org.blackist.cloudq.service;
+package org.blackist.cloudq.api;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
