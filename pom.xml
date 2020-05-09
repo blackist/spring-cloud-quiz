@@ -26,6 +26,12 @@
         <module>spring-cloud-quiz-02-ribbon-client-2</module>
         <module>spring-cloud-quiz-02-ribbon-request</module>
         <module>spring-cloud-quiz-02-ribbon-retry</module>
+        <module>spring-cloud-quiz-03-hystrix-server</module>
+        <module>spring-cloud-quiz-03-hystrix-client</module>
+        <module>spring-cloud-quiz-03-hystrix-request-a</module>
+        <module>spring-cloud-quiz-03-hystrix-dashboard</module>
+        <module>spring-cloud-quiz-03-hystrix-request-b</module>
+        <module>spring-cloud-quiz-03-hystrix-turbine</module>
     </modules>
 
     <properties>

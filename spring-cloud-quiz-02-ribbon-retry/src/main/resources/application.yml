@@ -17,7 +17,7 @@ eureka:
       # 单点配置
       defaultZone: http://127.0.0.1:8002/eureka/
 
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 4000
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 20000
 
 custom:
   rest:
