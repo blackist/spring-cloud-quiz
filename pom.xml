@@ -35,6 +35,10 @@
         <module>spring-cloud-quiz-04-feign-provider</module>
         <module>spring-cloud-quiz-04-feign-consumer</module>
         <module>spring-cloud-quiz-04-feign-server</module>
+        <module>spring-cloud-quiz-05-gateway-server</module>
+        <module>spring-cloud-quiz-05-gateway</module>
+        <module>spring-cloud-quiz-05-hello</module>
+        <module>spring-cloud-quiz-05-luck</module>
     </modules>
 
     <properties>
