@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <form action="http://127.0.0.1:5000/luck-service/upload" enctype="multipart/form-data" method="post">
+        <input type="file" value="Choose File" name="file"><br/>
+        <input type="submit" value="Upload">
+    </form>
+</div>
+<div>
+    <form action="http://127.0.0.1:5000/zuul/lick-service/upload" enctype="multipart/form-data" method="post">
+        <input type="file" value="Choose File" name="file"><br/>
+        <input type="submit" value="No Zuul Upload">
+    </form>
+</div>
+</body>
+</html>
